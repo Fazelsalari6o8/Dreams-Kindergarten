@@ -1,0 +1,186 @@
+@media (max-width: 479px) {
+    header, #content-header, #content-header img {
+        height: 150px;
+    }
+}
+
+/* @media (max-width: 479px) {
+    header, #content-header, #content-header img {
+        height: 200px;
+    }
+} */
+
+@media (min-width: 480px) and (max-width: 566px) {
+    header, #content-header, #content-header img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 566px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        overflow-y: scroll;
+    }
+
+    .about-title, .footer-menu-title, .social-title {
+        font-size: 1rem;
+    }
+    .about-content {
+        line-height: 1.2rem;
+        font-size: 0.75rem;
+    }
+    .footer-menu-content {
+        line-height: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .social img {
+        width: 18px;
+        height: 18px;
+    }
+    .social .instagram::after, .social .telegram::after {
+        vertical-align: 5px;
+        font-size: 10px;
+    }
+    .social .telegram::after {
+        padding-left: 35px;
+    }
+}
+
+
+@media (min-width:567px) and (max-width: 678px) {
+    .about-title, .footer-menu-title, .social-title {
+        font-size: 1rem;
+    }
+    .about-content {
+        line-height: 1.2rem;
+        font-size: 0.75rem;
+    }
+    .footer-menu-content {
+        line-height: 2.4rem;
+        font-size: 0.75rem;
+    }
+
+    .social img {
+        width: 18px;
+        height: 18px;
+    }
+    .social .instagram::after, .social .telegram::after {
+        vertical-align: 5px;
+        font-size: 10px;
+    }
+    .social .telegram::after {
+        padding-left: 35px;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 768px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        overflow-y: scroll;
+    }
+    header, #content-header, #content-header img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+    .menu-items {
+        display: none;
+    }
+    main {
+        height: 1500px;
+        /* background-color: red; */
+    }
+    .main {
+        height: 950px;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 950px;
+    }
+    .main-intro .main-text {
+        width: 100%;
+        display: block;
+    }
+    .main-text h1 {
+        font-size: 1rem;
+        display: block;
+    }
+    .main-text p {
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    
+    .container-footer {
+        flex-direction: column;
+    }
+    .about-us, .footer-menu, .social {
+        width: 100%;
+        margin: 20px 0px 20px 20px;
+    }
+    .about-title, .footer-menu-title, .social-title {
+        margin-right: 15px;
+    }
+    .footer-menu-content {
+        margin: 10px 60px 0 0;
+        row-gap: 20px;
+    }
+    .social .instagram {
+        margin-top: 50px;
+    }
+
+    .copyright {
+        height: 100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    header, #content-header, #content-header img {
+        height: 400px;
+    }
+}
+
+
+@media (min-width: 679px) and (max-width: 1206px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        overflow-y: scroll;
+    }
+
+    .about-title, .footer-menu-title, .social-title {
+        font-size: 1rem;
+    }
+    .about-content {
+        line-height: 1.2rem;
+        font-size: 0.75rem;
+    }
+    .footer-menu-content {
+        line-height: 1.8rem;
+        font-size: 0.9rem;
+    }
+
+    .social img {
+        width: 22px;
+        height: 22px;
+    }
+    .social .instagram::after, .social .telegram::after {
+        vertical-align: 7px;
+    }
+}
